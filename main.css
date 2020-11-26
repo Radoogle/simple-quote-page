@@ -23,3 +23,10 @@ blockquote {
 /*  font-family: 'Sansita Swashed', cursive;*/
   font-family: "Comic Sans MS", cursive, sans-serif
 }
+
+@media (min-width: 768px) {
+  blockquote {
+    font-size: 2rem;
+    padding-top: 8rem;
+  }
+}
