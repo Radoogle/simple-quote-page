@@ -1,6 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   width: 100vw;
   height: 100vh;
   background-image: url("assets/freedom.jpg");
@@ -29,4 +33,46 @@ blockquote {
     font-size: 2rem;
     padding-top: 8rem;
   }
+}
+
+footer {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    bottom: 4rem;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+  li {
+    display: inline-block;
+  }
+  
+}
+
+a {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  a {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+  }
+  
+}
+
+a:hover {
+  color: white;
 }
